@@ -20,7 +20,8 @@ teams - team identifier #, Full name of team
 		  	start with people table, JOIN to appearances table ON p.playerid = a.playerid
 		  *appearances and teams both have teamid
 		  	JOIN appearances to teams ON a.teamid = t.teamid
-	FACTS ::
+	
+  FACTS ::
         Use p.playerid, namefirst, namelast, height
 		MIN(height) is the shortest player, 
 		t.name, a.teamid, a.g_all AS games_played	
