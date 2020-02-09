@@ -62,3 +62,4 @@ ON p.playerid = f.playerid
 WHERE yearid = '2016'
 GROUP BY position_group
 ORDER BY position_group;
+
